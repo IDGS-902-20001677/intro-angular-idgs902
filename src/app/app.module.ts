@@ -9,7 +9,8 @@ import { MenuComponent } from './utl/menu/menu.component';
 import { FormsModule } from '@angular/forms';
 import { SumaComponent } from './utl/formulario/suma/suma.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { OperasBasComponent } from './utl/formulario/operas-bas/operas-bas.component';
+import { OperasModule } from './utl/formulario/operas/operas.module';
+import { DistanciaComponent } from './Tarea/distancia/distancia.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,13 @@ import { OperasBasComponent } from './utl/formulario/operas-bas/operas-bas.compo
     IricComponent,
     MenuComponent,
     SumaComponent,
-    OperasBasComponent
+    DistanciaComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    OperasModule
   ],
   providers: [],
   bootstrap: [AppComponent]
