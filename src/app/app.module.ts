@@ -11,6 +11,7 @@ import { SumaComponent } from './utl/formulario/suma/suma.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OperasModule } from './utl/formulario/operas/operas.module';
 import { DistanciaComponent } from './Tarea/distancia/distancia.component';
+import { CalculoModule } from './Tarea/distancia/calculo/calculo.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DistanciaComponent } from './Tarea/distancia/distancia.component';
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
-    OperasModule
+    OperasModule,
+    CalculoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

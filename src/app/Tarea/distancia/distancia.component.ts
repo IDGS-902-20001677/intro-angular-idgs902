@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-distancia',
   templateUrl: './distancia.component.html',
@@ -12,6 +13,6 @@ export class DistanciaComponent {
   Y2:number=0;
   resultado:number=0;
 
-  sumar():void{
+  sumar(){
     this.resultado = Math.sqrt((this.X2 - this.X1)*(this.X2 - this.X1)+(this.Y2 - this.Y1)*(this.Y2 - this.Y1));  }
 }
