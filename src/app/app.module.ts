@@ -12,6 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OperasModule } from './utl/formulario/operas/operas.module';
 import { DistanciaComponent } from './Tarea/distancia/distancia.component';
 import { CalculoModule } from './Tarea/distancia/calculo/calculo.module';
+import { CalificacionAlumComponent } from './utl/calificacion-alum/calificacion-alum.component';
+import { AlumnoFilterPipe } from './utl/alumno-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CalculoModule } from './Tarea/distancia/calculo/calculo.module';
     IricComponent,
     MenuComponent,
     SumaComponent,
-    DistanciaComponent
+    DistanciaComponent,
+    CalificacionAlumComponent,
+    AlumnoFilterPipe
   ],
   imports: [
     BrowserModule,
